@@ -21,4 +21,4 @@ Milo4uk - Zagoruyko Miloslava
 
 Это Нити Судьбы!
 
-алло алло
+хочу роллы
