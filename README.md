@@ -14,3 +14,5 @@ Milo4uk - Zagoruyko Miloslava
 
 панки хой
 рггу рулит
+
+СТОЙ ТОРВАЛЬД!
