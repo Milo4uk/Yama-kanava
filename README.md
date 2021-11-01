@@ -1,14 +1,8 @@
-# Yama-kanava
+Задача:
+Написать  программу для перевода чисел из одной системы исчисления в другую.
 
-† This is our group project for decimal, binary and etc. conversion system
+Входные данные: число; основание его си; основание си, в которую переводим
+Объём памяти, выделенный на входное число: 8 бит
+Выходные данные: число в новой си
 
-† Our contributors:
-
-Ishtar624 - Ksenia Savchenko
-
-♡ rivrasance - Nika Nguyen ♡
-
-mariezasypkina - Maria Zasipkina
-
-Milo4uk - Zagoruyko Miloslava
-
+Количество человек, задействованных в проекте: 4
