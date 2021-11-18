@@ -13,7 +13,7 @@ int Base1, Base2;
 char Numb[16] = { '0','1','2','3','4','5','6','7','8','9','A', 'B', 'C', 'D', 'E', 'F'};
 
 
-void input(N, B1, B2) {
+void input(char N, int B1, int B2) {
     printf("Write your number:\n");
     scanf_s("%s", &N);
     printf("Write the base:\n");
