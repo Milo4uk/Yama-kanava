@@ -26,7 +26,7 @@ int convertation_dec() {
     return 0;
 }
 
-char convaertation_newBase() {
+char convertation_newBase() {
     //приходит int потом делаем %Base2 и после записываем это как стринг
     char p;
     int remainder, i = 0, l;
