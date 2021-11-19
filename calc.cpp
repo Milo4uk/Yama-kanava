@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 #include <math.h>
 
@@ -22,7 +22,7 @@ void input(char N, int B1, int B2) {
         printf("%c\n", ch[len]);
         ch++;
     };
-    return len; 
+    return len;
 }*/
 
 int convertation_dec(const char* N, int B1) {
@@ -45,7 +45,7 @@ int convertation_dec(const char* N, int B1) {
 char convertation_newBase() {
     char p;
     int remainder, i = 0, l;
-    char M;
+    char M[];
 
     int Cont[] = { 'A', 'B', 'C', 'D', 'E', 'F' };
 
@@ -55,7 +55,8 @@ char convertation_newBase() {
     if (Base2 < 10) {
         do {
             p = (remainder % Base2);
-            scanf("%s", &M[i++]); // записываем в массив
+            scanf("%ch", &M[i]); // записываем в массив
+            i++;
             remainder = (p / Base2);
         } while ((remainder / Base2) > Base1);
 
@@ -68,7 +69,9 @@ char convertation_newBase() {
                 p = Cont[l];
                 //сделать * на место в массиве как варик...
             }
-            scanf("%s", &M[i++]);
+            for (i=0; i!=EOF; i++) {
+                scanf("%ch", &M[i]);
+            }
             remainder = (p / Base2);
         }
     } while ((remainder / Base2) > Base1);
@@ -77,9 +80,3 @@ char convertation_newBase() {
     return p;
 }
 
-int main() {
-    input(Num[7], Base1, Base2);
-    //printf("%d\n", str_len(Num));
-    printf("%d", convertation_dec(Num, Base1, Numbers));
-    return 0;
-}
